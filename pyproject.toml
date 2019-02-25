@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "get_cert"
-version = "19.1.0"
+version = "19.1.1"
 description = "Tool for downloading ssl certificates from remote servers."
 authors = ["Michal Mazurek <michal@mazurek-inc.co.uk>"]
 license = "MIT"
