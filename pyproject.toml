@@ -5,7 +5,16 @@ description = "Tool for downloading ssl certificates from remote servers."
 authors = ["Michal Mazurek <michal@mazurek-inc.co.uk>"]
 license = "MIT"
 packages = [ {include = "get_cert.py"}]
-
+homepage = "https://github.com/michalmazurek/get_cert"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Internet :: WWW/HTTP",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7"
+]
+keywords = ["ssl", "tool"]
+readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.7"
 click = "^7.0"
